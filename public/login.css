@@ -20,7 +20,7 @@ body {
 
 .login-div {
   width: 430px;
-  height: 650px;
+  height: 700px;
   padding: 60px 35px 35px 35px;
   border-radius: 40px;
   background-color: #ecf0f3;
@@ -113,15 +113,23 @@ body {
     font-family: "Lato",sans-serif;
     color: #fff;
     text-align: center;
-    background-color: #fff;
     background-color: #EA4335;
     box-shadow: 3px 3px 8px #b1b1b1,-3px -3px 8px #fff;
     margin-top: 20px;
+    text-decoration: none;
     transition: all 0.5s;
 
 
 }
 
+.google-sign-in a {
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  color:white;
+
+}
 
 .sigin-button:hover {
     background-color: #50e5b9;
