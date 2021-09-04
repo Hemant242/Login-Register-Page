@@ -103,6 +103,11 @@ app.get(
   }
 );
 
+app.get('/logout', function(req, res){
+  req.logout();
+  res.redirect('/login');
+});
+
 app.post("/register", (req, res) => {
   User.register(
     { username: req.body.username },
